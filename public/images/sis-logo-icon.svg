@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="SIS icon">
+  <defs>
+    <linearGradient id="gi" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#39d176" />
+      <stop offset="100%" stop-color="#168a47" />
+    </linearGradient>
+    <filter id="s" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0b3b16" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="128" height="128" rx="20" fill="url(#gi)" filter="url(#s)" />
+  <!-- Book glyph -->
+  <g transform="translate(26,28)" fill="#fff">
+    <path d="M10 4c1.5 0 3.5.5 5 1.4 1.6-.9 3.6-1.4 5-1.4 3 0 5.8 1.6 5.8 4.4v17.6c0 .6-.5 1.1-1.1 1.1-.2 0-.4-.1-.6-.2L34 30l-10 .1c-.7 0-1.2-.6-1.2-1.1V8.4C22 5.8 20 4 18 4z"/>
+    <path d="M52 4c-1.5 0-3.5.5-5 1.4-1.6-.9-3.6-1.4-5-1.4-3 0-5.8 1.6-5.8 4.4v17.6c0 .6.5 1.1 1.1 1.1.2 0 .4-.1.6-.2L46 30l10 .1c.7 0 1.2-.6 1.2-1.1V8.4C64 5.8 62 4 60 4z"/>
+  </g>
+  <text x="64" y="100" font-family="Segoe UI, Roboto, Arial" font-weight="700" font-size="18" fill="#f3fff7" text-anchor="middle">SIS</text>
+</svg>
