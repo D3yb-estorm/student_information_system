@@ -57,3 +57,32 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Frontend build (Vite)
+
+Development and production builds use Vite. To reproduce the `public/build/manifest.json` and compiled assets locally:
+
+1. Install Node.js LTS (recommended: `nvm-windows` or the official installer).
+
+2. In the project root, install dependencies and build:
+
+```powershell
+Push-Location 'C:\xampp\htdocs\student_information_system'
+nvm install lts      # if using nvm-windows
+nvm use lts
+npm install
+npm run build
+Pop-Location
+```
+
+3. Start the Laravel server and verify the site loads:
+
+```powershell
+Push-Location 'C:\xampp\htdocs\student_information_system'
+php artisan serve --host=127.0.0.1 --port=8000
+Pop-Location
+```
+
+Notes:
+- `public/build/manifest.json` is gitignored and should not be committed.
+- If you prefer the Node official installer, use https://nodejs.org/ and then run the same `npm` commands above.
